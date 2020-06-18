@@ -1,0 +1,230 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/* intro*/
+
+.intro {
+  margin-top: 100px ;
+  margin-bottom: 80px;
+}
+
+.margin_rotate_ciao {
+  margin-top: 150px;
+}
+
+.btn_intro {
+  background-color: #3D9970;
+  margin: 0 auto;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.btn_intro a {
+  color: #ddd;
+}
+
+.btn_intro:hover{
+  background-color: #FFDC00;
+}
+
+.btn_intro a:hover {
+  color: #001F3F !important;
+}
+
+/* curriculum */
+.curriculum_bianco {
+  background-color: #ddd;
+  height: 100%;
+  color: #001F3F;
+  padding-bottom: 30px;
+}
+
+/*Tab Curriculum Bianco */
+
+.nav {
+  justify-content: center;
+  border-bottom: 0px;
+  font-size: 18px;
+}
+
+.nav a {
+  font-size: 25px;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+  border: transparent !important;
+  color:#ddd;
+  background-color: #F012BE;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  border: 0px;
+}
+
+.nav-tabs .nav-link {
+  background-color: #3D9970;
+  margin: 3px;
+  color: #ddd;
+}
+
+.tab-content a {
+  color: #3D9970 !important;
+}
+.tab-content a:hover {
+  text-decoration: underline;
+}
+
+.nav-link a:hover {
+  color: #FFDC00;
+}
+
+
+.triangle_blue {
+  background-image: url("../img/triangle.png");
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Resize the background image to cover the entire container */
+  margin: 0 auto;
+  height: 100px;
+  top: -5px;
+  position: relative;
+  z-index: 1;
+}
+
+.item{
+  margin-top: 30px;
+}
+
+.item ul {
+  list-style: none;
+	display: inline;
+	padding: 5px;
+  line-height: 10px;
+}
+.item li {
+  display: inline;
+  margin: 0 2px;
+  text-align: center;
+}
+
+#myTabContent {
+  width: 60%;
+}
+
+.job, .edu_place {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #3D9970;
+  font-weight: bold;
+}
+.data {
+  font-size: 16px;
+  color: #3D9970;
+  font-weight: bold;
+}
+
+.data_edu {
+  font-size: 16px;
+  color: #001F3F;
+  font-weight: bold;
+}
+
+.place, .website {
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 15px;
+}
+.job-tasks, .edu_activity {
+  font-size: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.achievements {
+  margin-bottom: 150px;
+}
+
+.achievements h3{
+  text-align: center;
+}
+
+
+/* skills */
+
+.triangle_white {
+  background-image: url("../img/triangle_white.png");
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Resize the background image to cover the entire container */
+  margin: 0 auto;
+  height: 145px;
+  top: -17px;
+  position: relative;
+  z-index: 1;
+}
+
+/* Tabs Skills */
+
+.skills_section{
+  margin-bottom: 150px;
+}
+
+.skills{
+  width: 170px;
+  height: 170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 10px solid #ddd;
+  border-radius: 85px;
+  background-color: #7FDBFF;
+  margin: 0 auto;
+  color: #001F3F;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 3px;
+}
+
+.skills:hover {
+  animation-name: color;
+  animation-duration: 6s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+}
+/* The animation code */
+@keyframes color {
+  0%   {background-color: #7FDBFF; color: #ddd;}
+  15%  {background-color: #FF851B; color: #ddd;}
+  30%  {background-color: #FF4136; color: #ddd;}
+  60% {background-color: #F012BE; color: #ddd;}
+  75% {background-color: #FF4136; color: #ddd;}
+  90% {background-color: #FF851B; color: #ddd;}
+  100% {background-color: #7FDBFF; color: #ddd;}
+}
+
+.skills p {
+  text-align: center;
+  font-weight: 800;
+  line-height: 15px;
+}
+
+.row_skills {
+  justify-content: center;
+}
+
+
+#myTabContent_skills{
+  margin-top: 80px;
+}

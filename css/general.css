@@ -1,0 +1,215 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #001F3F;
+  font-family: 'Titillium Web', sans-serif;
+  color: #ddd;
+}
+
+ a {
+  color: #3D9970;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+a:hover {
+  color: #FFDC00;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font: 30px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 50px;
+}
+
+
+/* Navbar */
+.navbar {
+  background-color: #001F3F;
+}
+.navbar a {
+  font-size: : 13px;
+}
+
+.active a{
+  color: #FFDC00
+}
+
+.navbar-toggler-icon {
+    background-image: url(../img/ui.png);
+}
+
+.navbar_color_change {
+  background-color: #ddd;
+}
+
+.navbar_color_change.active a {
+  color: #F012BE ;
+}
+
+.rotate_ciao {
+  transform: rotate(-5deg);
+  transform-origin: left;
+  text-align: center;
+  margin: 0 auto;
+}
+
+
+/* Footer */
+
+.footer {
+  margin-top: 20px;
+}
+
+.contatti_diretti {
+  display: flex;
+  justify-content: center;
+}
+
+.contatti_diretti a{
+padding: 10px;
+}
+
+ul.social-network {
+	list-style: none;
+	display: inline;
+	margin-left:0 !important;
+	padding: 10px;
+}
+ul.social-network li {
+	display: inline;
+	margin: 0 5px;
+}
+
+/* div social media */
+.contatti {
+  padding: 2%;
+  margin-top: 10%;
+  padding-top: 5%;
+}
+
+.contatti_diretti {
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-bottom: 3%;
+}
+
+ul.social-network {
+	list-style: none;
+	display: inline;
+	margin-left:0 !important;
+	padding: 10px;
+}
+ul.social-network li {
+	display: inline;
+	margin: 0 5px;
+}
+
+/* footer social icons */
+.social_media {
+  margin: 0 auto;
+  padding: 2%;
+  margin-bottom: 80px;
+}
+
+.social-network a.icoGithub:hover {
+	background-color: #FFDC00;
+}
+.social-network a.icoMedium:hover {
+	background-color:#FFDC00;
+}
+.social-network a.icoInsta:hover {
+	background-color: #FFDC00;
+}
+.social-network a.icoPinterest:hover {
+	background-color:#FFDC00;
+}
+.social-network a.icoLinkedin:hover {
+	background-color:#FFDC00;
+}
+.social-network a.icoGithub:hover i, .social-network a.icoMedium:hover i, .social-network a.icoInsta:hover i,
+.social-network a.icoPinterest:hover i, .social-network a.icoLinkedin:hover i {
+	color: #001F3F;
+}
+a.socialIcon:hover, .socialHoverClass {
+	color: #001F3F;
+}
+
+.social-circle li a {
+	display:inline-block;
+	position:relative;
+	margin:0 auto 0 auto;
+	-moz-border-radius:40%;
+	-webkit-border-radius:40%;
+	border-radius:50%;
+	text-align:center;
+	width: 40px;
+	height: 40px;
+	font-size:20px;
+}
+.social-circle li i {
+	margin:0;
+	line-height:40px;
+	text-align: center;
+}
+
+.social-circle li a:hover i, .triggeredHover {
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-ms--transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	transition: all 0.2s;
+}
+.social-circle i {
+	color: #fff;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	transition: all 0.8s;
+}
+.social_media a {
+ background-color: #3D9970;
+}
+/* div info design */
+
+
+.info_design {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.info_design a {
+  font-size: 10px;
+}
+
+.info_design ul {
+  list-style: none;
+  display: inline;
+}
+
+.info_design  li {
+  display: inline;
+	margin: 0 2px;
+  font-size: 10px;
+}

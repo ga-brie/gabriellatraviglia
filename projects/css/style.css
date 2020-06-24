@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+h1, h3{
+  text-align: center;
+}
+
+.container {
+  max-width: 750px;;
+  margin: 0 auto;
+}
+
+.container img {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.container p {
+  font-size: 15px;
+  line-height: 30px;
+}
+.bottoni {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.btn {
+  width: 200px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.btn_intro a{
+  margin: 0 auto;
+}

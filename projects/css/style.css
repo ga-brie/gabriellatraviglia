@@ -22,7 +22,8 @@ h1, h3{
 
 .container img {
   width: 100%;
-  margin-top: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .container p {
@@ -39,6 +40,10 @@ h1, h3{
   width: 200px;
   text-align: center;
   margin: 0 auto;
+  margin-bottom: 30px;
+}
+.btn_intro {
+  margin-bottom: 30px;
 }
 
 .btn_intro a{

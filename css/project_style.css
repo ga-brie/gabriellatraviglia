@@ -67,8 +67,14 @@
   font-size: 30px;
   position: relative;
   top: 50%;
-
 }
+
+#portfolio a {
+  text-align: center;
+  font-size: 30px;
+  color:#ddd;
+}
+
 .tile p{
   text-align: center;
   color:#ddd;

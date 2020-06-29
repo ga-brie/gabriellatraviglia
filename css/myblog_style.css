@@ -76,6 +76,26 @@ p{
   margin-right: 3px;
 }
 
+.engage_feat {
+  color: #FF851B;
+}
+
+.fantasy_feat {
+  color: #7FDBFF;
+}
+
+.dh_feat {
+  color: #FF4136;
+}
+
+.coding_feat {
+  color: #F012BE;
+}
+
+.ci_feat {
+  color:#935DCC;
+}
+
 
 /* Blog Post Section */
 

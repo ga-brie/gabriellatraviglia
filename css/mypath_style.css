@@ -9,13 +9,12 @@
 
 /* intro*/
 
-.intro {
-  margin-top: 100px ;
+.intro_path {
   margin-bottom: 80px;
 }
 
 .margin_rotate_ciao {
-  margin-top: 150px;
+  margin-top: 60px;
 }
 
 .btn_intro {
@@ -119,6 +118,12 @@
 
 #myTabContent {
   width: 60%;
+}
+
+@media only screen and (max-width: 600px) {
+  #myTabContent {
+    width: 100%;
+  }
 }
 
 .job, .edu_place {

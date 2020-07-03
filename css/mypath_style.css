@@ -12,6 +12,10 @@
 .intro_path {
   margin-bottom: 80px;
 }
+.intro_path p{
+  font-size: 18px;
+  line-height: 35px;
+}
 
 .margin_rotate_ciao {
   margin-top: 60px;

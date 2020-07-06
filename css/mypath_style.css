@@ -13,7 +13,7 @@
   margin-bottom: 80px;
 }
 .intro_path p{
-  font-size: 18px;
+  font-size: 15px;
   line-height: 35px;
 }
 
@@ -79,6 +79,7 @@
 
 .tab-content a {
   color: #3D9970 !important;
+  font-size: 15px;
 }
 .tab-content a:hover {
   text-decoration: underline;

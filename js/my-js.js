@@ -17,7 +17,7 @@ $(document).ready(function() {
   });
 
   var typed = new Typed('.typewriter', {
-    strings: ["Web Design.", "Web development.", "Pop Culture.", "Digital Humanities.","fantasy games."],
+    strings: ["Web Design.", "Web development.", "Pop Culture.", "Digital Humanities.","Creative Thinking."],
     typeSpeed: 100,
     smartBackspace: true,
     loop: true,

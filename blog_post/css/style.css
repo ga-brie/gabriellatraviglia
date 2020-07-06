@@ -46,3 +46,7 @@ h1, h3{
 .btn_intro {
   margin-bottom: 30px;
 }
+.list_post button {
+    margin-right: 10px;
+    margin-left: 10px;
+}

@@ -18,7 +18,7 @@
 }
 
 .section a:hover {
-  color: #FFDC00;
+  color: #FFDC00 !important;
   text-decoration: none;
 }
 
@@ -46,40 +46,39 @@
   margin: 0 auto;
 }
 
-/* Header */
-#header {
-  position: fixed;
-  height: 60px;
-  display: block;
-  width: 100%;
-  background: #001F3F;
-  z-index: 9;
-  text-align: center;
+/* Navbar */
+.navbar {
+  background-color: #001F3F;
+}
+.navbar a {
+  font-size: 13px;
   color: #3D9970;
-  padding: 10px 0 0 0;
-  top: 0px;
 }
 
-/*  logo */
-#logo {
-  position: fixed;
-  top: 5px;
-  left: 20px;
-  color: #3D9970;
-  font-weight: 700;
-  z-index: 99;
-  font-size: 1.9em;
-  -webkit-font-smoothing: antialiased;
+.navbar a:hover {
+    color: #FFDC00;
 }
 
 
-/* Section firstPage INTRODUZIONE */
+.navbar-toggler-icon {
+    background-image: url(../img/ui.png);
+}
+
+.navbar_color_change {
+  background-color: #ddd;
+}
+
+.navbar_color_change.active a {
+  color: #F012BE;
+}
+
+
+/* Section firstPage */
 
 .presentazione
  {
   width: 55%;
   margin: 0 auto;
-  margin-top: 100px;
 }
 
 .presentazione h1 {
@@ -99,9 +98,6 @@
 
 .presentazione span {
   color: #3D9970;
-}
-.right p{
-  text-align: right!important;
 }
 
 .box_animation {
@@ -123,8 +119,6 @@
   from {top: 0px;}
   to {top: 10px;}
 }
-
-
 
 /* Section secondPage BIO */
 
@@ -165,14 +159,14 @@
 
 /* Section 3 Coding */
 .title_coding {
-  margin-top: 10%;
+  margin-top: 6%;
   z-index: 2;
   position: relative;
 }
 
 .top_bar_screen{
   position: absolute;
-  top: 56px;
+  top: 25px;
   left: 10px;
   z-index: 1;
   width: 45%;
@@ -355,7 +349,7 @@ height: 200px;
 /* div social media */
 .contatti {
   padding: 2%;
-  margin-top: 10%;
+  margin-top: 6%;
   padding-top: 5%;
 }
 

@@ -220,6 +220,10 @@
   margin: 0 auto;
   margin-top: 3%;
 }
+.more a:hover{
+  color: #ddd !important;
+}
+
 .button_more_1, .button_more_2, .button_more_3, .button_more_4 {
   margin-right: 10px;
   margin-top: 10px;
@@ -234,6 +238,7 @@
   background-color: #FF851B;
   border-color: #FF851B;
 }
+
 .button_more_2 {
   color: #7FDBFF;
   border-color: #7FDBFF;
